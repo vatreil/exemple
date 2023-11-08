@@ -5,7 +5,7 @@
 
 ## API Reference
 
-#### Get all items
+#### front
 
 ```django
   GET /user/user_name/
@@ -15,7 +15,7 @@
 | :-------- | :------- | :------------------------- |
 | `user_name` | `string` | **Required**. Url front |
 
-#### Get item
+#### backend
 
 ```flask
   GET /user/?user_name=user_name/
